@@ -2676,12 +2676,26 @@ input, select, textarea {
 			transform: scale(1.05);
 		}
 
-/* Carousel */
+/* Carousel and other changed items*/
 
 	/* Make the image fully responsive */
 	.carousel-inner img {
-  	width: 50%;
-  	height: 50%;
+  		width: 50%;
+  		height: 50%;
+	}
+
+	#mod1{
+		height: 360px;
+	}
+
+	#mod2{
+		height: 360px;
+	}
+
+
+	.carousel-control-prev-icon,
+	.carousel-control-next-icon {
+		filter: invert(100%);
 	}
 
 /* Actions */
